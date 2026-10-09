@@ -1,5 +1,58 @@
-body { margin: 0; min-height: 100vh; display: grid; place-items: center; font-family: system-ui, sans-serif; background: #f4f2f8; color: #1c1924; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f4f2f8; color: #1c1924; }
 main { text-align: center; padding: 2rem; }
 h1 { font-size: 2.5rem; color: #6c3ff5; margin: 0 0 .5rem; }
 button { font: inherit; padding: .6em 1.2em; border: 0; border-radius: 10px; background: #6c3ff5; color: #fff; cursor: pointer; }
 code { background: #e7e2f3; padding: .1em .35em; border-radius: 4px; }
+
+
+header {
+    width: 75%;
+    justify-self: center;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem;
+}
+
+.principal-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+header a{
+    text-decoration: none;
+    color: #6c3ff5;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+header p{
+    color: #6c3ff5;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 0.2rem;
+}
+
+header a:hover{
+    color: #1c1924;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    background: #6c3ff5;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+
